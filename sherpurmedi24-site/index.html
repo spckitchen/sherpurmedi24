@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#087b43">
+  <meta name="description" content="SherpurMedi24 — সিলেটের স্থানীয় ফার্মেসি খোঁজার পরীক্ষামূলক ওয়েবসাইট।">
+  <title>SherpurMedi24 | Care Never Sleeps.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">মূল কনটেন্টে যান</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SherpurMedi24 homepage">
+        <img src="assets/sherpurmedi24-logo.jpg" alt="SherpurMedi24 logo" class="brand-logo">
+        <span class="brand-copy">
+          <strong>SherpurMedi24</strong>
+          <small>Care Never Sleeps.</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="মেনু খুলুন">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="প্রধান মেনু">
+        <a href="#pharmacies">ফার্মেসি</a>
+        <a href="#how-it-works">কীভাবে কাজ করে</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a class="nav-cta" href="#pharmacies">ফার্মেসি খুঁজুন</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot"></span> সিলেটের স্থানীয় ফার্মেসি ডিরেক্টরি</span>
+          <h1>আপনার এলাকার ফার্মেসি <span>খুঁজুন সহজেই</span></h1>
+          <p class="hero-description">
+            SherpurMedi24-এ সিলেটের অংশগ্রহণকারী ফার্মেসির তথ্য খুঁজে দেখুন।
+            এটি বর্তমানে একটি পরীক্ষামূলক ডেমো ওয়েবসাইট।
+          </p>
+
+          <form class="search-panel" id="searchForm" role="search">
+            <label class="search-field">
+              <span class="sr-only">ফার্মেসি বা এলাকার নাম</span>
+              <span class="field-icon" aria-hidden="true">⌕</span>
+              <input id="searchInput" type="search" placeholder="ফার্মেসি বা এলাকার নাম লিখুন" autocomplete="off">
+            </label>
+            <label class="area-field">
+              <span class="sr-only">এলাকা নির্বাচন</span>
+              <span class="field-icon" aria-hidden="true">⌖</span>
+              <select id="areaSelect">
+                <option value="">সব এলাকা</option>
+                <option value="জিন্দাবাজার">জিন্দাবাজার</option>
+                <option value="আম্বরখানা">আম্বরখানা</option>
+                <option value="সুবিদবাজার">সুবিদবাজার</option>
+              </select>
+            </label>
+            <button class="button button-primary search-button" type="submit">খুঁজুন</button>
+          </form>
+          <p class="search-note">ডেমো ডেটা ব্যবহার করা হয়েছে। এখানে এখনো বাস্তব অর্ডার নেওয়া হয় না।</p>
+        </div>
+
+        <div class="hero-art" aria-label="SherpurMedi24 পরিচিতি">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span class="mini-mark">+</span>
+              <span class="live-label"><span class="status-dot"></span> LOCAL DIRECTORY</span>
+            </div>
+            <div class="hero-symbol">SM<span>24</span></div>
+            <p>Care Never Sleeps.</p>
+            <div class="hero-card-bottom">
+              <span>SYLHET, BANGLADESH</span>
+              <span class="hero-cross">✚</span>
+            </div>
+          </div>
+          <div class="floating-pill pill-top">বিশ্বস্ত তথ্য</div>
+          <div class="floating-pill pill-bottom">স্থানীয় ফার্মেসি</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="সেবার বৈশিষ্ট্য">
+      <div class="container trust-grid">
+        <div><span class="trust-icon">⌖</span><span><strong>এলাকাভিত্তিক</strong><small>সিলেটের নির্দিষ্ট এলাকা</small></span></div>
+        <div><span class="trust-icon">✓</span><span><strong>অনুমোদিত তালিকা</strong><small>পরীক্ষামূলকভাবে যাচাইকৃত ডেমো</small></span></div>
+        <div><span class="trust-icon">⌕</span><span><strong>সহজ সার্চ</strong><small>নাম ও এলাকা দিয়ে খুঁজুন</small></span></div>
+      </div>
+    </section>
+
+    <section class="section" id="pharmacies">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">PHARMACY DIRECTORY</span>
+            <h2>ফার্মেসি খুঁজুন</h2>
+            <p>আপনার নির্বাচিত এলাকার তালিকা দেখুন।</p>
+          </div>
+          <span class="result-count" id="resultCount" aria-live="polite">৩টি ডেমো ফার্মেসি</span>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-chip active">সব ফার্মেসি</div>
+          <span class="demo-label">নমুনা তথ্য — বাস্তব প্রতিষ্ঠান নয়</span>
+        </div>
+
+        <div class="pharmacy-grid" id="pharmacyGrid">
+          <article class="pharmacy-card">
+            <div class="pharmacy-card-head"><span class="pharmacy-avatar">CP</span><span class="demo-tag">DEMO</span></div>
+            <h3>City Care Pharmacy</h3><p class="pharmacy-area">জিন্দাবাজার</p>
+            <p class="pharmacy-description">এটি শুধু ডিজাইন দেখানোর জন্য তৈরি নমুনা ফার্মেসি।</p>
+            <div class="card-footer"><span class="open-status">ডেমো তালিকা</span><span class="arrow">→</span></div>
+          </article>
+          <article class="pharmacy-card">
+            <div class="pharmacy-card-head"><span class="pharmacy-avatar avatar-blue">AP</span><span class="demo-tag">DEMO</span></div>
+            <h3>Ambarkhana Pharmacy</h3><p class="pharmacy-area">আম্বরখানা</p>
+            <p class="pharmacy-description">এটি শুধু ডিজাইন দেখানোর জন্য তৈরি নমুনা ফার্মেসি।</p>
+            <div class="card-footer"><span class="open-status">ডেমো তালিকা</span><span class="arrow">→</span></div>
+          </article>
+          <article class="pharmacy-card">
+            <div class="pharmacy-card-head"><span class="pharmacy-avatar avatar-gold">SP</span><span class="demo-tag">DEMO</span></div>
+            <h3>Subidbazar Health Point</h3><p class="pharmacy-area">সুবিদবাজার</p>
+            <p class="pharmacy-description">এটি শুধু ডিজাইন দেখানোর জন্য তৈরি নমুনা ফার্মেসি।</p>
+            <div class="card-footer"><span class="open-status">ডেমো তালিকা</span><span class="arrow">→</span></div>
+          </article>
+        </div>
+        <div class="empty-state" id="emptyState" hidden>
+          <span>⌕</span>
+          <h3>কোনো ফলাফল পাওয়া যায়নি</h3>
+          <p>অন্য নাম বা এলাকা দিয়ে আবার খুঁজুন।</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading centered">
+          <div><span class="eyebrow">SIMPLE & CLEAR</span><h2>যেভাবে প্ল্যাটফর্মটি কাজ করবে</h2><p>এগুলো ভবিষ্যৎ সিস্টেমের পরিকল্পিত ধাপ। এখনো সক্রিয় নয়।</p></div>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-number">01</span><div class="step-icon">⌖</div><h3>এলাকা নির্বাচন</h3><p>নিজের এলাকার ফার্মেসির তালিকা দেখুন।</p></article>
+          <article class="step-card"><span class="step-number">02</span><div class="step-icon">⌕</div><h3>তথ্য খুঁজুন</h3><p>ফার্মেসি ও সেবার তথ্য যাচাই করুন।</p></article>
+          <article class="step-card"><span class="step-number">03</span><div class="step-icon">✓</div><h3>যাচাই ও সহায়তা</h3><p>ভবিষ্যতে অনুমোদিত ব্যবস্থার মাধ্যমে সহায়তা দেওয়া হবে।</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice-section" id="about">
+      <div class="container">
+        <div class="notice-box">
+          <span class="notice-icon">i</span>
+          <div><h2>গুরুত্বপূর্ণ নোট</h2><p>SherpurMedi24 বর্তমানে একটি ডেমো ও ডেভেলপমেন্ট প্রজেক্ট। এখানে বাস্তব ওষুধ বিক্রি, প্রেসক্রিপশন যাচাই, চিকিৎসা পরামর্শ, পেমেন্ট বা ডেলিভারি চালু নেই। বাস্তব কার্যক্রম শুরুর আগে প্রযোজ্য লাইসেন্স, ফার্মেসি যাচাই, তথ্যের নিরাপত্তা এবং আইনগত শর্ত পূরণ করতে হবে।</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>SherpurMedi24</strong><p>Care Never Sleeps.</p></div>
+      <p>© <span id="currentYear"></span> SherpurMedi24. Demo project.</p>
+    </div>
+  </footer>
+</body>
+</html>
